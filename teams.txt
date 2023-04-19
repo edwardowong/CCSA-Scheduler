@@ -1,0 +1,46 @@
+BTBC S2 People of God
+BTBC S2 Themelios
+CPC S1 Resilience
+CPC J Thunder
+CGCT S2 Ichthus
+CGCS S2 Eternal
+CGCS S1 Flames
+CGCS S1 Jars of Clay
+CGCS J The Vine
+CCAC J Probaton
+CCAC S2 Protos
+CCAC S1 Providence
+ETCBC S1 Ekklesia
+ETCBC J Phileo
+ETCBC S1 Soteria
+GCGCNY S2 Cup
+GCGCNY J Sack of Rice
+GCGCNY S2 Unchained
+LBCM S2 Arise
+MCAC S1 Naphtali
+MCBC J Diakonos
+MCBC S2 Kletos
+MCBC J Pharos
+NTCAC S1 Eleos
+NTCAC J Xaris
+NYCBC J Ablaze
+NYCBC S1 Dry Bones
+NYCBC S2 Harbingers
+NYCBC J Seraphs
+NYCCC S2 Forerunners
+RHCCC S2 Arkeo
+RHCCC J Lighthouse
+RHCCC S2 Ransomed
+SCAC J Convergence
+SCAC S2 Encounter
+SCBC S2 Revelations
+SCBC J Trinity
+SCommAC S1 Resurgence
+TBRI S2 Radiance
+TCMC S2 Kairos
+TCUC S2 Covenant
+TCCC J Calvary
+TCCC S2 Resonate
+TCAC S1 Rock
+TCAC J United
+TSCAC J Pillars
