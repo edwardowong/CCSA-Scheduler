@@ -11,12 +11,24 @@ class Game:
         self.time = time
         self.location = location
 
-    def set_game(self, home, away, ump):
+    def getDate(self):
+        return str(self.date)
+
+    def getTime(self):
+        return str(self.time)
+
+    def getLocation(self):
+        return self.location
+
+    def setGame(self, home, away, ump):
         self.home = home
         self.away = away
         self.ump = ump
 
-    def is_empty(self):
+    def setUmp(self, ump):
+        self.ump = ump
+
+    def isEmpty(self):
         if self.home != "":
             return False
         return True

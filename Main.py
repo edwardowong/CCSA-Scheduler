@@ -18,16 +18,16 @@ def parkSetup():
         if stringDate == "2023-07-01" or stringDate == "2023-07-18" or stringDate == "2023-08-05" or stringDate == "2023-08-06":
             continue
         else:
-            for time in range(2, 8, 2):
-                stringTime = str(time)
-                for park in SeniorParks:
+            for park in SeniorParks:
+                for time in range(2, 8, 2):
+                    stringTime = str(time)
                     SeniorGamesList.append(Game(stringDate, stringTime, park))
-    
-    # count = 0
-    # for games in SeniorGamesList:
-    #     count += 1
-    #     print(games.__str__())
-    # print(str(count) + " senior games can be played")
+
+    count = 0
+    for games in SeniorGamesList:
+        count += 1
+        print(games.__str__())
+    print(str(count) + " senior games can be played")
 
 
 def teamSetup():
@@ -39,22 +39,14 @@ def teamSetup():
             elif splitLine[1] == "S2":
                 Senior2Teams.append(Team(splitLine[0], splitLine[1], splitLine[2]))
 
-    # for team in Senior1Teams:
-    #     print(team)
-    # for team2 in Senior2Teams:
-    #     print(team2)
+    for team in Senior1Teams:
+        print(team)
+    for team2 in Senior2Teams:
+        print(team2)
 
 
 def gameSetup():
-    for emptyGames in SeniorGamesList:
-        home, away, ump = random.choice(Senior1Teams), random.choice(Senior1Teams), random.choice(Senior1Teams)
-        while home.getChurch() != away.getChurch() and home.getChurch() != ump.getChurch() and away.getChurch() != ump.getChurch() and home != away != ump:
-            emptyGames.set_game(home, away, ump)
-            home = random.choice(Senior1Teams)
-            away = random.choice(Senior1Teams)
-            ump = random.choice(Senior1Teams)
-        print(emptyGames)
-
+    # Umped games setup
 
     pass
     # RESTRICTIONS
