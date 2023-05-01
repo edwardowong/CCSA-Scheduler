@@ -11,15 +11,6 @@ class Game:
         self.time = time
         self.location = location
 
-    def getDate(self):
-        return str(self.date)
-
-    def getTime(self):
-        return str(self.time)
-
-    def getLocation(self):
-        return self.location
-
     def setGame(self, home, away, ump):
         self.home = home
         self.away = away

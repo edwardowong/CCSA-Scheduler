@@ -11,18 +11,12 @@ class Team:
         self.currentUmped = 0
         self.maxUmpedGames = 5
 
-    def getChurch(self):
-        return self.church
-
-    def getCurrentUmped(self):
-        return self.currentUmped
-
-    def getGamesPlayed(self):
-        return self.currentPlayed
-
     def setGame(self, game):
         self.game_list.append(game)
         self.currentPlayed += 1
+
+    def setNoPlayDate(self, game):
+        self.no_play_date_list.append(game)
 
     def setUmpedGame(self, gamesList, date):
         for game in gamesList:                          # Umps will not play games on days they ump

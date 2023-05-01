@@ -33,7 +33,6 @@ RHCCC J Lighthouse
 RHCCC S2 Ransomed
 SCAC J Convergence
 SCAC S2 Encounter
-SCBC S2 Revelations
 SCBC J Trinity
 SCommAC S2 Resurgence
 TBRI S2 Radiance
